@@ -31,7 +31,7 @@
         android:id="@+id/btnFadeIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="20dp"
         android:text="FADE IN"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/btnFadeOut" />
@@ -45,7 +45,7 @@
         android:text="FADE OUT"
         app:layout_constraintBottom_toTopOf="@+id/btnZoomOut"
         app:layout_constraintEnd_toStartOf="@+id/btnFadeInOut"
-        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/btnFadeIn" />
 
     <Button
@@ -141,11 +141,12 @@
         android:id="@+id/btnRotateRight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="10dp"
+        android:layout_marginEnd="60dp"
         android:text="ROTATE RIGHT"
         app:layout_constraintBottom_toBottomOf="@+id/btnRotateLeft"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btnRotateLeft" />
+        app:layout_constraintTop_toTopOf="@+id/btnRotateLeft"
+        app:layout_constraintVertical_bias="0.0" />
 
     <SeekBar
         android:id="@+id/seekBarSpeed"
